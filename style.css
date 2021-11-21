@@ -1,0 +1,367 @@
+*, *::before, *::after{
+    box-sizing: inherit;
+    margin: 0;
+}
+
+html{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header, .sildeshow-container, .lady-looking, .for-business, .microsofts-response, footer{
+    margin: 0 70px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header-left, header .header-right, .header-right a{
+    display: flex;
+    align-items: center;
+}
+
+.header-left img{
+    width: 107px;
+    height: 23px;
+}
+
+header a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 14px;
+    color:rgb(30,30,30);
+}
+
+header a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
+}
+
+.header-right a span{
+    padding: 5px;
+}
+
+.sildeshow-container{
+    background:linear-gradient(to right, rgb(194,210,236) 70%, rgb(180,195,222) 85%);
+    box-shadow: rgba(194, 210, 236, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.sildeshow-container .top{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 75px;
+}
+
+.heading-sub-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading-sub-button h1{
+    font-weight:500;
+    font-size: 2.5rem;
+}
+
+.heading-sub-button button{
+    background: black;
+    border: none;
+    color: white;
+    height:40px;
+    width:250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:  1em;
+    transition: all 0.3s ease;
+    text-decoration-color: transparent;
+}
+
+.heading-sub-button button:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 3px;
+    text-decoration-color: white;
+}
+
+
+.heading-sub-button button:hover span{
+    padding-left: 15px;
+}
+
+.heading-sub-button button span{
+    transition: 0.3s ease;
+}
+
+.heading-sub-button span{
+    padding: 1px 0 0 5px;
+}
+
+.heading-sub-button p{
+    margin: 16px 0 20px;
+}
+
+.sildeshow-container .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    background: linear-gradient(180deg, rgb(194,210,236), white);
+}
+
+.dot{
+   margin-right: 10px; 
+}
+
+.play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play .play-icon{
+    margin-right: 10px;
+}
+
+.play .play-icon{
+    border: 1px solid transparent;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:  0.2s;
+}
+
+.play .play-text{
+    border: 1px solid transparent;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: transparent;
+}
+
+.play .play-icon:hover{
+    background: black;
+}
+
+.play .play-icon:hover{
+    color: white;
+    border-color:black;
+}
+
+.surface-games-windows{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 400px;
+}
+
+.surface-games-windows div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.surface-games-windows div h6{
+    text-align: center;
+    color: rgb(148,13,23);
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.surface-games-windows div:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(148,13,23);
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 70px;
+}
+
+.cards img{
+    width:323.5px;
+    height: 181px;
+    transition: .3s;
+}
+
+.cards h3{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.cards p{
+    margin: 5px 0 10px;
+}
+
+.cards a{
+    text-decoration: none;
+    color: rgb(148,13,23);
+    font-size: 1.1em;
+    transition: 0.5s;
+    text-decoration-color: transparent;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 3px;
+}
+
+.cards a span svg{
+    padding-top: 5px;
+    padding-left: 5px;
+    align-items: center;
+}
+
+.cards a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(148,13,23);
+}
+
+.cards img:hover{
+    transform: scale(105%);
+}
+
+.cards a svg{
+    transition: 0.5s ease;
+}
+
+.cards a:hover svg{
+    transform: translateX(10px);
+}
+
+.lady-looking{
+    background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3hFDE?ver=e113&q=0&m=8&h=600&w=1600&b=%23FFFFFFFF&l=f&x=0&y=180&s=2120&d=795&aim=true);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 515px;
+}
+
+.lady-looking{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.lady-looking .heading-sub-button{
+    padding-left: 100px;
+}
+
+.lady-looking .heading-sub-button button{
+    width: 150px;
+}
+
+.for-business{
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+main .microsofts-response{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(230,231,231);
+}
+
+main .microsofts-response button{
+    background: transparent;
+    color: black;
+}
+
+main .microsofts-response button:hover{
+    text-decoration-color: black;
+    padding: 0;
+}
+
+main .microsofts-response button:hover span{
+    transform: translateX(5px);
+    padding: 1px 0 0 5px;
+}
+
+main .microsofts-response p{
+    margin: 8px 0 4px;
+}
+
+main .microsofts-response h1{
+    margin-top: 20px;
+}
+
+.follow-ms{
+    display: flex;
+    align-items: center;
+    margin: 50px 70px;
+}
+
+.follow-ms img{
+    width: 28px;
+    height: 28px;
+    margin: 0 8px;
+}
+
+.follow-ms p{
+    opacity: 0.6;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+ul li{
+    font-size: .8rem;
+    opacity: 0.7;
+    padding-top: 14px;
+}
+
+ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+ul li:nth-child(1){
+    font-size: 1.1rem;
+    opacity: 0.9;
+    text-decoration-color: transparent;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-bottom-right, .footer-bottom-left{
+    display: flex;
+    align-items: center;
+}
+
+.footer-bottom-right a, .footer-bottom-right p, .footer-bottom-left a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;
+    padding: 0 10px;
+    font-size: .8rem
+}
+
+.footer-bottom-left svg{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.footer-bottom a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
